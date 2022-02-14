@@ -1,17 +1,26 @@
-# Overview
+# Introduction
 
-We construct a well-designed data system, GV-D, which
-consists of  $ GV$-$D$-$10B$ with multi-modal data, as well as $ GV$-$D_c$, $ GV$-$D_d$ and  $GV$-$D_s$ with classification, detection, and segmentation annotations, respectively. Here, we release $ GV$-$D_c$ and $ GV$-$D_d$.
+To efficiently obtain annotations for classification and detection tasks, we propose a hierarchical label system with a rigorously-defined taxonomy. The label system is a crucial component of our GV-D with more than 119K concepts from existing datasets, WikiData and WordNet. Powered by the hierarchical label system, we construct a well-designed data system, GV-D(General Vision Data), which is  a super-scale collection of vision datasets with 10 billion samples and various supervisory signals. Here, we release our annotated data in aspects of image classification. Detection annotations will be coming soon.
 
-# Description
-To efficiently obtain annotations for classification and detection tasks, we propose a hierarchical label system with a rigorously-defined taxonomy. The label system is a crucial component of our GV-D with more than 119K concepts from existing datasets, WikiData and WordNet. 
 
-Powered by the hierarchical label system, we annotate 8.1 million images, including 10.5 million semantic labels and 2.7 million bounding boxes. 
 
-Besides, we inherit public datasets including both their concepts and images. We collect ten image classification datasets and three object detection datasets. They are ImageNet21K，iNaturalist2021，Herbarium2021，DF20，iWildCam2020，TsinghuaDog, Places365，iFood2019，CompCars, COCO, OpenImages, and Objects365. 
+# Dataset Description
 
-After mergeing newly collected data public datasets , we construct two datasets as GV-D$_\text{c}$ and GV-D$_\text{d}$. 
+Firstly, we inherit public datasets, including both their concepts and images. Nine image classification datasets and three object detection datasets have been collected. They are ImageNet21K，iNaturalist2021，Herbarium2021，DF20，iWildCam2020，TsinghuaDog, Places365，iFood2019，CompCars, COCO, OpenImages, and Objects365. Secondly, powered by the hierarchical label system, we annotate nearly 40 million images by utilizing an active annotation pipeline. Finally, we construct well-designed datasets in aspects of image classification and object detection by merging newly collected data and public datasets. 
+
+### Classification Dataset
+
+Our classification dataset has nearly 70M annotations, of which 40M comes from our newly annotated data. It has more than 119K concepts. 34K of them are newly integrated. As shown in the following figure, these categories mainly are fine-grained concepts, such as Folland Midge (one type of fighter) and hemaria hemishphaerica (a species of fungi). 
+
+![image](images/cls.png)
+
+### Detection Dataset
+
+Detection annotations will be coming soon.
+
+
 
 # Download
 
-GV-D can be accessed from this website: http://opengvlab.shlab.tech/bamboo
+**Classification dataset** can be accessed from this website: http://opengvlab.shlab.tech/bamboo
+
