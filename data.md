@@ -12,7 +12,7 @@ Firstly, we inherit public datasets, including both their concepts and images. N
 
 Our classification dataset has nearly 70M annotations, of which 40M comes from our newly annotated data. It has more than 119K concepts. 34K of them are newly integrated. As shown in the following figure, these categories mainly are fine-grained concepts, such as Folland Midge (one type of fighter) and hemaria hemishphaerica (a species of fungi). 
 
-![image](images/cls.png)
+<img src="assets/images/dataset-chart.png" alt="drawing"/>
 
 ### Detection Dataset
 
