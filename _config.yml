@@ -1,1 +1,3 @@
 theme: jekyll-theme-minimal
+title: "OpenGVLab Documentation"
+description: "Overview for OpenGVLab's dataset (Bamboo), model, and benchmark components"
