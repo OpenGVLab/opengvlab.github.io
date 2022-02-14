@@ -1,3 +1,9 @@
+### Detailed Documentation
+
+* [Open source data project: Bamboo](data.md)
+* [INTERN released models](model.md)
+* [OpenGV Benchmark](benchmark.md)
+
 ### Open source ecosystem OpenGVLab 
 
 OpenGVLab, an open source general vision platform based on "INTERN", releases pre-training models and their usage information, datasets and evaluation benchmarks to industry and academia. OpenGVLab, together with OpenMMLab and OpenDILab, previously released by Shanghai Artificial Intelligence Laboratory and SenseTime, will jointly build OpenXLab, an open source system designed to help fundamental research and promote the general artificial intelligence ecosystem.
