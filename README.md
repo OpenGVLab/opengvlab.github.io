@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# OpenGVLab
 
-You can use the [editor on GitHub](https://github.com/OpenGVLab/opengvlab.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Open source ecosystem OpenGVLab 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+OpenGVLab, an open source general vision platform based on "INTERN", releases pre-training models and their usage information, datasets and evaluation benchmarks to industry and academia. OpenGVLab, together with OpenMMLab and OpenDILab, previously released by Shanghai Artificial Intelligence Laboratory and SenseTime, will jointly build OpenXLab, an open source system designed to help fundamental research and promote the general artificial intelligence ecosystem.
 
-### Markdown
+1. Data: Gradually release datasets for tasks including classification, detection, and segmentation as well as large-scale annotations, which is expected to become the largest open source image dataset.
+2. Model: The pre-trained model will be divided into small, medium, and super large models. The small and medium models will gradually include models for common network architechtures, and will be open to download, and the super large models will be available through inference services.
+3. Evaluation system: Publish a comprehensive benchmark suite for general visual models, covering multiple evaluation benchmark tasks under settings such as fewshot and zero-shot.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Why do we need general vision?
 
-```markdown
-Syntax highlighted code block
+* Generalizing tasks and training data training efficiency are the core bottlenecks restricting current AI development.
+     * An AI model is only good at handling one task. When faced with ever-changing task requirements, thousands of AI models need to be developed independently
+     * Each AI model needs to build a separate labeled dataset for special training
+* Large-scale training towards general models is a current research hotspot
+* Building scalable large-scale datasets is one of the key factors
+* Building large-scale downstream task standards and platforms for benchmarking serving industry and academia
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OpenGVLab/opengvlab.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
