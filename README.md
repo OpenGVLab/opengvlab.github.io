@@ -1,6 +1,6 @@
 ### Detailed Documentation
 
-* [Large-scale open source dataset](data.md)
+* [INTERN dataset](data.md)
 * [INTERN released models](model.md)
 * [OpenGV Benchmark](benchmark.md)
 
