@@ -1,6 +1,6 @@
 ### Detailed Documentation
 
-* [Open source data project: Bamboo](data.md)
+* [Large-scale open source dataset](data.md)
 * [INTERN released models](model.md)
 * [OpenGV Benchmark](benchmark.md)
 
