@@ -92,14 +92,14 @@ PYTHONPATH='.':$PYTHONPATH mim train $TASK $CONFIG $WORK_DIR
 
 ## Detailed Tutorials
 
-Currently, we provide tutorials for users.
+Currently, users can refer to the tutorial provided by openmmlab.
 
-- [add new modules](tutorials/new_modules.md)
-- [add new dataset](tutorials/new_dataset.md)
-- [learn about config](tutorials/config.md)
-- [design data pipeline](tutorials/data_pipeline.md)
-- [customize schedule](tutorials/schedule.md)
-- [customize runtime settings](tutorials/runtime.md).
+- [add new modules](https://mmclassification.readthedocs.io/en/latest/tutorials/new_modules.html)
+- [add new dataset](https://mmclassification.readthedocs.io/en/latest/tutorials/new_dataset.html)
+- [learn about config](https://mmclassification.readthedocs.io/en/latest/tutorials/config.html)
+- [design data pipeline](https://mmclassification.readthedocs.io/en/latest/tutorials/data_pipeline.html)
+- [customize schedule](https://mmclassification.readthedocs.io/en/latest/tutorials/schedule.html)
+- [customize runtime settings](https://mmclassification.readthedocs.io/en/latest/tutorials/runtime.html).
 
 
 ## Benchmark(with Hyperparameter searching)
