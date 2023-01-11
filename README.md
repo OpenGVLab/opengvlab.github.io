@@ -19,7 +19,7 @@ During the World Artificial Intelligence Conference in September 2022, we releas
 Your browser does not support the video tag.
 </video>
 
-<video width="450" controls>
+<video width="100%" controls>
   <source src="https://user-images.githubusercontent.com/94522163/211804947-582c52d7-e426-41e1-926f-2b821a5c844f.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
