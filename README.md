@@ -37,3 +37,6 @@ INTERN consists of seven key components. Three of them serve as fundamental base
 
 <img src="assets/images/intern-overview.png" alt="drawing"/>
 
+https://user-images.githubusercontent.com/94522163/211799801-cf9bb31b-fa4a-46f8-9edb-1873e445ab29.mp4
+
+
