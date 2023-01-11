@@ -1,43 +1,28 @@
-### Detailed Documentation
+```
+   ___                              ______  ____   ____  _____            __        
+ .'   `.                          .' ___  ||_  _| |_  _||_   _|          [  |       
+/  .-.  \ _ .--.   .---.  _ .--. / .'   \_|  \ \   / /    | |      ,--.   | |.--.   
+| |   | |[ '/'`\ \/ /__\\[ `.-. || |   ____   \ \ / /     | |   _ `'_\ :  | '/'`\ \ 
+\  `-'  / | \__/ || \__., | | | |\ `.___]  |   \ ' /     _| |__/ |// | |, |  \__/ | 
+ `.___.'  | ;.__/  '.__.'[___||__]`._____.'     \_/     |________|\'-;__/[__;.__.'  
+         [__|                                                                       
+```
 
-* [INTERN dataset](data.md)
-* [INTERN released models](model.md)
-* [OpenGV Benchmark](benchmark.md)
+### Why general vision AI
 
-### Open source ecosystem OpenGVLab 
+In the past 10 years, AI technology, along with its applications, have seen rapid growth, even surpassing human level skills in many tasks such as facial recognition, poker, and go. However, current AI models are heavily reliant on labeled data, and require different models for different tasks. It’s imperative to make AI models more generalized in order to lower AI development costs. More specifically, future vision models will show greater ability to generalize in terms of tasks, context, modality, and exhibit deeper levels of cognition. As vision is a key component of AI models, generalized vision models will be the next big step for AI. With general vision models, we hope to empower hundreds of business sectors more cost effectively and achieve more sustainable AI development.
 
-OpenGVLab, an open source general vision platform based on "INTERN", releases pre-training models and their usage information, datasets and evaluation benchmarks to industry and academia. OpenGVLab, together with OpenMMLab and OpenDILab, previously released by Shanghai Artificial Intelligence Laboratory and SenseTime, will jointly build OpenXLab, an open source system designed to help fundamental research and promote the general artificial intelligence ecosystem.
+### Our work
 
-1. Data: Gradually release datasets for tasks including classification, detection, and segmentation as well as large-scale annotations, which is expected to become the largest open source image dataset.
-2. Model: The pre-trained model will be divided into small, medium, and super large models. The small and medium models will gradually include models for common network architechtures, and will be open to download, and the super large models will be available through inference services.
-3. Evaluation system: Publish a comprehensive benchmark suite for general visual models, covering multiple evaluation benchmark tasks under settings such as fewshot and zero-shot.
+During the World Artificial Intelligence Conference in September 2022, we released INTERN 2.0, consisting of 3 general models for image, video, and translation tasks respectively. Each of these general models have made significant improvements over existing work in their modality. The general image model, which is based upon dynamic sparse convolutions, can adapt to different convolution location and combination configurations based on different visual tasks, optimizing for the task at hand. The general video model utilizes a combination of masked signal learning and contrastive learning to break the bottleneck related to self-supervised training, creating for the first time a systematic, dynamical, and perceptual large video model. This video model covers the three core areas of video recognition, video perception, and temporal semantic analysis, achieving SOTA performance with over 90% top1 accuracy on the Kinetics 400 main video benchmark. The general video model, together with the general image model, jointly reached SOTA performance in 50 visual tasks covering 12 categories. For the general translation model, it currently supports up to 400 languages. Utilizing 1.3 billion model parameters, the general translation model reaches SOTA performance in open-source translation models by a large leap.
 
-### Why do we need general vision?
-
-* Generalizing tasks and training data training efficiency are the core bottlenecks restricting current AI development.
-     * An AI model is only good at handling one task. When faced with ever-changing task requirements, thousands of AI models need to be developed independently
-     * Each AI model needs to build a separate labeled dataset for special training
-* Large-scale training towards general models is a current research hotspot
-* Building scalable large-scale datasets is one of the key factors
-* Building large-scale downstream task standards and platforms for benchmarking serving industry and academia
-
-### INTERN features
-
-<img src="assets/images/tech-indicators.png" alt="drawing"/>
-
-1. 10 billion+ image-text paired data samples, an unprecedented scale for open-source datasets
-2. The general vision model released by this project have 1 billion+ learnable parameters, sufficient model capacity to support training of massive datasets
-3. Trained on 512 Nvidia A100 graphics cards for 60 days
-4. The training procedure involves 10+ supervised label categories, encouraging generality through label diversity.
-5. From training to evaluation, the process involves 50+ vision-related tasks, fully achieving general vision training and evaluation.
-
-### How does OpenGVLab fit in INTERN
-
-INTERN consists of seven key components. Three of them serve as fundamental bases: General Vision Dataset is constructed as the database for the upstream step-wise learning process of INTERN. General Vision Architecture is the backbone of INTERN models. General Vision Benchmark consists of a broad range of downstream datasets and evaluation settings to assess the generalization ability of vision models thoroughly. The other four refer to our upstream pretraining scheme with three stages (i.e. Upstream-Amateur, Upstream-Expert, and Upstream-Generalist) and Downstream-Adaptation, which provides a refined solution to adapting learned upstream general models towards various types of downstream tasks.
-
-<img src="assets/images/intern-overview.png" alt="drawing"/>
-
-<video controls>
+<video width="450" controls>
   <source src="https://user-images.githubusercontent.com/94522163/211799801-cf9bb31b-fa4a-46f8-9edb-1873e445ab29.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+<video width="450" controls>
+  <source src="https://user-images.githubusercontent.com/94522163/211804947-582c52d7-e426-41e1-926f-2b821a5c844f.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
