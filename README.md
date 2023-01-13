@@ -14,6 +14,8 @@ During the World Artificial Intelligence Conference in September 2022, we releas
 
 <img width="90%" src="assets/images/general-video-pk.png" style="display:block;margin-left:auto;margin-right:auto">
 
+<br>
+
 > Overview of the general image model: InternImage
 
 <video width="100%" controls>
