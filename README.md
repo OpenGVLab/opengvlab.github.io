@@ -1,3 +1,7 @@
+## OpenGVLab
+
+> Opensource general vision AI ecosystem by Shanghai AI Lab
+
 ### Why general vision AI
 
 In the past 10 years, AI technology, along with its applications, have seen rapid growth, even surpassing human level skills in many tasks such as facial recognition, poker, and go. However, current AI models are heavily reliant on labeled data, and require different models for different tasks. It’s imperative to make AI models more generalized in order to lower AI development costs. More specifically, future vision models will show greater ability to generalize in terms of tasks, context, modality, and exhibit deeper levels of cognition. As vision is a key component of AI models, generalized vision models will be the next big step for AI. With general vision models, we hope to empower hundreds of business sectors more cost effectively and achieve more sustainable AI development.
