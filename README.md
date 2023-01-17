@@ -2,7 +2,7 @@
 
 > Opensource general vision AI ecosystem by Shanghai AI Lab
 
-### Why general vision AI
+### General Vision for AI: An essential route to AGI
 
 In last decade, AI technology, along with its applications, have witnessed rapid growth, fueled by more data, compute power, and better algorithms, deep learning algorithms especially. AI even surpass human level skills in many tasks such as facial recognition, poker, and go. However, current AI models are heavily reliant on labeled data, and require different models for different tasks. It’s imperative to make AI models more generalized in order to lower AI development costs. More specifically, future vision models will show greater ability to generalize in terms of tasks, context, modality, and exhibit deeper levels of cognition. As vision is a key component of AI models, we believe generalized vision models will be the next big step for AI. With general vision models, we hope to empower hundreds of business sectors more cost effectively and achieve more sustainable AI developmentm and will lead to the next breakthroughs in AGI, artificial general intelligence.
 
